@@ -8,7 +8,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mitre</groupId>
-	<artifactId>Maven App</artifactId>
+	<artifactId>Maven-App</artifactId>
 	<packaging>war</packaging>
 	<version>1.3.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -178,13 +178,13 @@
 				<configuration>
 			    <scanIntervalSeconds>10</scanIntervalSeconds>
 				    <webApp>
-				      	<contextPath>/Maven App</contextPath>
+				      	<contextPath>/Maven- App</contextPath>
 				      	<webInfIncludeJarPattern>.*/spring-[^/]*\.jar$</webInfIncludeJarPattern>
 				    </webApp>
 			  </configuration>
 			</plugin>
 		</plugins>
 	</build>
-	<name>Maven App</name>
+	<name>Maven-App</name>
 </project>
 
